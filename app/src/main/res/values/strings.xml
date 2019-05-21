@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CurrencyConverter</string>
+
+    <string name="exchanging">Exchanging:</string>
+    <string name="receiving">Receiving:</string>
+
+    <string name="fetching">Fetching…</string>
+
+</resources>

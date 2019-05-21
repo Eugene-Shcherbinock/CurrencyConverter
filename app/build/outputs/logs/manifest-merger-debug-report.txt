@@ -1,0 +1,165 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/eugene.shcherbinock/Development/Android/CurrencyConverter/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/eugene.shcherbinock/Development/Android/CurrencyConverter/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/eugene.shcherbinock/Development/Android/CurrencyConverter/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/eugene.shcherbinock/Development/Android/CurrencyConverter/app/src/main/AndroidManifest.xml:2:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/506a37c864b7b1fad31cac6d4daea181/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/bf10b0b3928f7762df00d46e81114c9a/AndroidManifest.xml:2:1-11:12
+MERGED from [com.kaopiz:kprogresshud:1.2.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/kprogresshud-1.2.0.aar/07c6f98abb15b9a6afa34c18cccde1dc/AndroidManifest.xml:2:1-15:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/bbf5b783766b35b881fa332d6359b954/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/5e6b34f6fe6c95e9e96538918c4f1eb9/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/aac25c39a3e91cfbb69b99edb7b52b72/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/f7e3853b668fd89424df075c4554f2dc/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/8e2ec0ad1d810c37b399c4b6102a556c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/16c58ec334786c57b5fd79ae4db02ad3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/9a8901ef89478f61a6b9691daf017ff4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/52f9ceb0ae61e54f17a1f36bf911be01/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/6d302d441d85428e8774f8db6c6def10/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/352a0c2e17f7fae4c03093a8dab45e0a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/46b5ff5b65625442d6c4bef1ed491cb1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/239e377baf10212c482fdeae0d87edf3/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/12b9561d1b905de1eb0fad8d3e6e472d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/84879a45a3b3ce325f0acd532e26b384/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/80e87e94024b82f4dbb0719aeb3ed7c4/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/92a13c82607f09cd479d1222138d0d8e/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/f1f2aa6941f3f2fd1475e96f19632836/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/c64a29fa7f16590859f8066a8d27a1d1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/dc895d91cbb843d7ee567340b1ece9e1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/c9930500ff5f4cdf4e686be5f36e8ce1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/317eef9a007c74de3018c7a9a06e0e39/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/e39c7fc6fb4530ea8d412efcda2b78ca/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/b1c5ee1461cca424e4ad61f7b70914e5/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/266c4a1450f034fb1af70fa29d045239/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/de831a0de6fb4a8e3008799c62dd0e97/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/eugene.shcherbinock/Development/Android/CurrencyConverter/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/eugene.shcherbinock/Development/Android/CurrencyConverter/app/src/main/AndroidManifest.xml:2:1-24:12
+INJECTED from /Users/eugene.shcherbinock/Development/Android/CurrencyConverter/app/src/main/AndroidManifest.xml:2:1-24:12
+	package
+		ADDED from /Users/eugene.shcherbinock/Development/Android/CurrencyConverter/app/src/main/AndroidManifest.xml:3:5-49
+		INJECTED from /Users/eugene.shcherbinock/Development/Android/CurrencyConverter/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/eugene.shcherbinock/Development/Android/CurrencyConverter/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/eugene.shcherbinock/Development/Android/CurrencyConverter/app/src/main/AndroidManifest.xml
+		ADDED from /Users/eugene.shcherbinock/Development/Android/CurrencyConverter/app/src/main/AndroidManifest.xml:2:1-24:12
+		INJECTED from /Users/eugene.shcherbinock/Development/Android/CurrencyConverter/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/eugene.shcherbinock/Development/Android/CurrencyConverter/app/src/main/AndroidManifest.xml
+		ADDED from /Users/eugene.shcherbinock/Development/Android/CurrencyConverter/app/src/main/AndroidManifest.xml:2:1-24:12
+		INJECTED from /Users/eugene.shcherbinock/Development/Android/CurrencyConverter/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/eugene.shcherbinock/Development/Android/CurrencyConverter/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/eugene.shcherbinock/Development/Android/CurrencyConverter/app/src/main/AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from /Users/eugene.shcherbinock/Development/Android/CurrencyConverter/app/src/main/AndroidManifest.xml:5:22-64
+application
+ADDED from /Users/eugene.shcherbinock/Development/Android/CurrencyConverter/app/src/main/AndroidManifest.xml:7:5-22:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/bf10b0b3928f7762df00d46e81114c9a/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/bf10b0b3928f7762df00d46e81114c9a/AndroidManifest.xml:9:5-20
+MERGED from [com.kaopiz:kprogresshud:1.2.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/kprogresshud-1.2.0.aar/07c6f98abb15b9a6afa34c18cccde1dc/AndroidManifest.xml:11:5-13:38
+MERGED from [com.kaopiz:kprogresshud:1.2.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/kprogresshud-1.2.0.aar/07c6f98abb15b9a6afa34c18cccde1dc/AndroidManifest.xml:11:5-13:38
+MERGED from [com.android.support:support-compat:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/84879a45a3b3ce325f0acd532e26b384/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/84879a45a3b3ce325f0acd532e26b384/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/80e87e94024b82f4dbb0719aeb3ed7c4/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/80e87e94024b82f4dbb0719aeb3ed7c4/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/84879a45a3b3ce325f0acd532e26b384/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /Users/eugene.shcherbinock/Development/Android/CurrencyConverter/app/src/main/AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from /Users/eugene.shcherbinock/Development/Android/CurrencyConverter/app/src/main/AndroidManifest.xml:11:9-41
+	android:roundIcon
+		ADDED from /Users/eugene.shcherbinock/Development/Android/CurrencyConverter/app/src/main/AndroidManifest.xml:12:9-54
+	android:icon
+		ADDED from /Users/eugene.shcherbinock/Development/Android/CurrencyConverter/app/src/main/AndroidManifest.xml:10:9-43
+	android:allowBackup
+		ADDED from /Users/eugene.shcherbinock/Development/Android/CurrencyConverter/app/src/main/AndroidManifest.xml:9:9-35
+	android:theme
+		ADDED from /Users/eugene.shcherbinock/Development/Android/CurrencyConverter/app/src/main/AndroidManifest.xml:14:9-40
+	android:name
+		ADDED from /Users/eugene.shcherbinock/Development/Android/CurrencyConverter/app/src/main/AndroidManifest.xml:8:9-53
+activity#ua.eshcherbinock.currencyconverter.module.exchanger.view.ExchangerActivity
+ADDED from /Users/eugene.shcherbinock/Development/Android/CurrencyConverter/app/src/main/AndroidManifest.xml:15:9-21:20
+	android:name
+		ADDED from /Users/eugene.shcherbinock/Development/Android/CurrencyConverter/app/src/main/AndroidManifest.xml:15:19-74
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/eugene.shcherbinock/Development/Android/CurrencyConverter/app/src/main/AndroidManifest.xml:16:13-20:29
+action#android.intent.action.MAIN
+ADDED from /Users/eugene.shcherbinock/Development/Android/CurrencyConverter/app/src/main/AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from /Users/eugene.shcherbinock/Development/Android/CurrencyConverter/app/src/main/AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/eugene.shcherbinock/Development/Android/CurrencyConverter/app/src/main/AndroidManifest.xml:19:17-77
+	android:name
+		ADDED from /Users/eugene.shcherbinock/Development/Android/CurrencyConverter/app/src/main/AndroidManifest.xml:19:27-74
+uses-sdk
+INJECTED from /Users/eugene.shcherbinock/Development/Android/CurrencyConverter/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/eugene.shcherbinock/Development/Android/CurrencyConverter/app/src/main/AndroidManifest.xml
+INJECTED from /Users/eugene.shcherbinock/Development/Android/CurrencyConverter/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/506a37c864b7b1fad31cac6d4daea181/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/506a37c864b7b1fad31cac6d4daea181/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/bf10b0b3928f7762df00d46e81114c9a/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/bf10b0b3928f7762df00d46e81114c9a/AndroidManifest.xml:5:5-7:41
+MERGED from [com.kaopiz:kprogresshud:1.2.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/kprogresshud-1.2.0.aar/07c6f98abb15b9a6afa34c18cccde1dc/AndroidManifest.xml:7:5-9:41
+MERGED from [com.kaopiz:kprogresshud:1.2.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/kprogresshud-1.2.0.aar/07c6f98abb15b9a6afa34c18cccde1dc/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/bbf5b783766b35b881fa332d6359b954/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/bbf5b783766b35b881fa332d6359b954/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/5e6b34f6fe6c95e9e96538918c4f1eb9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0.aar/5e6b34f6fe6c95e9e96538918c4f1eb9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/aac25c39a3e91cfbb69b99edb7b52b72/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/aac25c39a3e91cfbb69b99edb7b52b72/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/f7e3853b668fd89424df075c4554f2dc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/f7e3853b668fd89424df075c4554f2dc/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/8e2ec0ad1d810c37b399c4b6102a556c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0.aar/8e2ec0ad1d810c37b399c4b6102a556c/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/16c58ec334786c57b5fd79ae4db02ad3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/16c58ec334786c57b5fd79ae4db02ad3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/9a8901ef89478f61a6b9691daf017ff4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/9a8901ef89478f61a6b9691daf017ff4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/52f9ceb0ae61e54f17a1f36bf911be01/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/52f9ceb0ae61e54f17a1f36bf911be01/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/6d302d441d85428e8774f8db6c6def10/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/6d302d441d85428e8774f8db6c6def10/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/352a0c2e17f7fae4c03093a8dab45e0a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/352a0c2e17f7fae4c03093a8dab45e0a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/46b5ff5b65625442d6c4bef1ed491cb1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/46b5ff5b65625442d6c4bef1ed491cb1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/239e377baf10212c482fdeae0d87edf3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/239e377baf10212c482fdeae0d87edf3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/12b9561d1b905de1eb0fad8d3e6e472d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/12b9561d1b905de1eb0fad8d3e6e472d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/84879a45a3b3ce325f0acd532e26b384/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/84879a45a3b3ce325f0acd532e26b384/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/80e87e94024b82f4dbb0719aeb3ed7c4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/80e87e94024b82f4dbb0719aeb3ed7c4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/92a13c82607f09cd479d1222138d0d8e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/92a13c82607f09cd479d1222138d0d8e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/f1f2aa6941f3f2fd1475e96f19632836/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/f1f2aa6941f3f2fd1475e96f19632836/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/c64a29fa7f16590859f8066a8d27a1d1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/c64a29fa7f16590859f8066a8d27a1d1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/dc895d91cbb843d7ee567340b1ece9e1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/dc895d91cbb843d7ee567340b1ece9e1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/c9930500ff5f4cdf4e686be5f36e8ce1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/c9930500ff5f4cdf4e686be5f36e8ce1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/317eef9a007c74de3018c7a9a06e0e39/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/317eef9a007c74de3018c7a9a06e0e39/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/e39c7fc6fb4530ea8d412efcda2b78ca/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/e39c7fc6fb4530ea8d412efcda2b78ca/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/b1c5ee1461cca424e4ad61f7b70914e5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/b1c5ee1461cca424e4ad61f7b70914e5/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/266c4a1450f034fb1af70fa29d045239/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/266c4a1450f034fb1af70fa29d045239/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/de831a0de6fb4a8e3008799c62dd0e97/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/eugene.shcherbinock/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/de831a0de6fb4a8e3008799c62dd0e97/AndroidManifest.xml:20:5-44
+INJECTED from /Users/eugene.shcherbinock/Development/Android/CurrencyConverter/app/src/main/AndroidManifest.xml
+INJECTED from /Users/eugene.shcherbinock/Development/Android/CurrencyConverter/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/eugene.shcherbinock/Development/Android/CurrencyConverter/app/src/main/AndroidManifest.xml
+		ADDED from /Users/eugene.shcherbinock/Development/Android/CurrencyConverter/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/eugene.shcherbinock/Development/Android/CurrencyConverter/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/eugene.shcherbinock/Development/Android/CurrencyConverter/app/src/main/AndroidManifest.xml
+		ADDED from /Users/eugene.shcherbinock/Development/Android/CurrencyConverter/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/eugene.shcherbinock/Development/Android/CurrencyConverter/app/src/main/AndroidManifest.xml

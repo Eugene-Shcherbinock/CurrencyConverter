@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/currency_background"
+    tools:context=".module.exchanger.view.ExchangerActivity">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="8dp"
+        android:background="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/text_view_currency_from"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/exchanging"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/edit_text_exchange_value"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+
+            android:inputType="numberDecimal"
+            app:layout_constraintEnd_toStartOf="@id/text_view_exchanging_currency"
+            app:layout_constraintStart_toStartOf="@id/text_view_currency_from"
+            app:layout_constraintTop_toBottomOf="@id/text_view_currency_from" />
+
+        <AutoCompleteTextView
+            android:id="@+id/text_view_exchanging_currency"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:completionThreshold="1"
+            android:gravity="center"
+            android:maxLines="1"
+            android:hint="adsdasda"
+            android:dropDownSelector="@color/colorPrimaryDark"
+            android:dropDownHeight="wrap_content"
+            android:dropDownWidth="wrap_content"
+            android:inputType="textAutoComplete"
+            app:layout_constraintBottom_toBottomOf="@id/edit_text_exchange_value"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/edit_text_exchange_value"
+            app:layout_constraintTop_toTopOf="@id/edit_text_exchange_value" />
+
+        <TextView
+            android:id="@+id/text_view_currency_to"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="@string/receiving"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/edit_text_exchange_value" />
+
+        <EditText
+            android:id="@+id/edit_text_exchange_result"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:inputType="numberDecimal"
+            app:layout_constraintEnd_toStartOf="@id/text_view_result_currency"
+            app:layout_constraintStart_toStartOf="@id/text_view_currency_to"
+            app:layout_constraintTop_toBottomOf="@id/text_view_currency_to" />
+
+        <AutoCompleteTextView
+            android:id="@+id/text_view_result_currency"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:completionThreshold="1"
+            android:gravity="center"
+            android:maxLines="1"
+            android:dropDownSelector="@color/colorPrimaryDark"
+            android:dropDownHeight="wrap_content"
+            android:dropDownWidth="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@id/edit_text_exchange_result"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/edit_text_exchange_result"
+            app:layout_constraintTop_toTopOf="@id/edit_text_exchange_result" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>
