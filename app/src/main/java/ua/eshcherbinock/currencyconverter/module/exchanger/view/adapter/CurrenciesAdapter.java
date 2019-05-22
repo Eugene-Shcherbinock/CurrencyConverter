@@ -29,6 +29,13 @@ public final class CurrenciesAdapter extends ArrayAdapter<Currency> {
         mFilteredCurrencies = new ArrayList<>(currencies);
     }
 
+    public void setupCurrencies(List<Currency> currencies) {
+        mCurrencies = new ArrayList<>(currencies);
+        mFilteredCurrencies = new ArrayList<>(currencies);
+
+        notifyDataSetChanged();
+    }
+
     @Override
     public Filter getFilter() {
         return new CurrenciesFilter();
