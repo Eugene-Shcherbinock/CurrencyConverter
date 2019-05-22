@@ -1,4 +1,0 @@
-#Tue May 21 22:29:25 EEST 2019
-base.0=/Users/eugene.shcherbinock/Development/Android/CurrencyConverter/app/build/intermediates/transforms/dexMerger/debug/5
-path.0=classes.dex
-renamed.0=classes.dex

@@ -9,7 +9,7 @@
 
     <android.support.constraint.ConstraintLayout
         android:layout_width="0dp"
-        android:layout_height="0dp"
+        android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="16dp"
@@ -38,27 +38,20 @@
             android:gravity="center"
 
             android:inputType="numberDecimal"
-            app:layout_constraintEnd_toStartOf="@id/text_view_exchanging_currency"
+            app:layout_constraintEnd_toStartOf="@id/spinner_exchanging_currency"
             app:layout_constraintStart_toStartOf="@id/text_view_currency_from"
             app:layout_constraintTop_toBottomOf="@id/text_view_currency_from" />
 
-        <AutoCompleteTextView
-            android:id="@+id/text_view_exchanging_currency"
+        <Spinner
+            android:id="@+id/spinner_exchanging_currency"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginEnd="5dp"
-            android:completionThreshold="1"
-            android:gravity="center"
-            android:maxLines="1"
-            android:hint="adsdasda"
-            android:dropDownSelector="@color/colorPrimaryDark"
-            android:dropDownHeight="wrap_content"
-            android:dropDownWidth="wrap_content"
-            android:inputType="textAutoComplete"
             app:layout_constraintBottom_toBottomOf="@id/edit_text_exchange_value"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@id/edit_text_exchange_value"
-            app:layout_constraintTop_toTopOf="@id/edit_text_exchange_value" />
+            app:layout_constraintTop_toTopOf="@id/edit_text_exchange_value"
+            tools:listitem="@layout/currency_list_item"/>
 
         <TextView
             android:id="@+id/text_view_currency_to"
@@ -76,26 +69,21 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:gravity="center"
-            android:inputType="numberDecimal"
-            app:layout_constraintEnd_toStartOf="@id/text_view_result_currency"
+            android:enabled="false"
+            app:layout_constraintEnd_toStartOf="@id/spinner_result_currency"
             app:layout_constraintStart_toStartOf="@id/text_view_currency_to"
             app:layout_constraintTop_toBottomOf="@id/text_view_currency_to" />
 
-        <AutoCompleteTextView
-            android:id="@+id/text_view_result_currency"
+        <Spinner
+            android:id="@+id/spinner_result_currency"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginEnd="5dp"
-            android:completionThreshold="1"
-            android:gravity="center"
-            android:maxLines="1"
-            android:dropDownSelector="@color/colorPrimaryDark"
-            android:dropDownHeight="wrap_content"
-            android:dropDownWidth="wrap_content"
             app:layout_constraintBottom_toBottomOf="@id/edit_text_exchange_result"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toEndOf="@id/edit_text_exchange_result"
-            app:layout_constraintTop_toTopOf="@id/edit_text_exchange_result" />
+            app:layout_constraintTop_toTopOf="@id/edit_text_exchange_result"
+            tools:listitem="@layout/currency_list_item" />
 
     </android.support.constraint.ConstraintLayout>
 

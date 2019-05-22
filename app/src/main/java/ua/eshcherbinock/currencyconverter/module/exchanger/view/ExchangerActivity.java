@@ -1,8 +1,10 @@
 package ua.eshcherbinock.currencyconverter.module.exchanger.view;
 
 import android.os.Bundle;
-import android.widget.AutoCompleteTextView;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.EditText;
+import android.widget.Spinner;
 
 import java.util.List;
 
@@ -22,8 +24,8 @@ public class ExchangerActivity extends BaseActivity <ExchangerModuleContracts.Pr
 
     private CurrenciesAdapter mCurrenciesAdapter;
 
-    private AutoCompleteTextView mTextViewExchangingCurrency;
-    private AutoCompleteTextView mTextViewResultCurrency;
+    private Spinner mSpinnerExchangingCurrency;
+    private Spinner mSpinnerResultCurrency;
 
     @Override
     protected void configureModule() {
@@ -39,18 +41,18 @@ public class ExchangerActivity extends BaseActivity <ExchangerModuleContracts.Pr
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_exchanger);
-    }
-
-    @Override
-    protected void onStart() {
-        super.onStart();
         mPresenter.fetchCurrencies();
     }
 
     @Override
     public void setupCurrencies(List<Currency> currencies) {
+        mCurrenciesAdapter.setupCurrencies(currencies);
+        mCurrenciesAdapter.notifyDataSetChanged();
+    }
 
+    @Override
+    public void showExchangeResult(float result) {
+        mEditTextResult.setText(Float.toString(result));
     }
 
     @Override
@@ -60,23 +62,48 @@ public class ExchangerActivity extends BaseActivity <ExchangerModuleContracts.Pr
         mEditTextValue = findViewById(R.id.edit_text_exchange_value);
         mEditTextResult = findViewById(R.id.edit_text_exchange_result);
 
-        mTextViewExchangingCurrency = findViewById(R.id.text_view_exchanging_currency);
-        mTextViewResultCurrency = findViewById(R.id.text_view_result_currency);
+        mSpinnerExchangingCurrency = findViewById(R.id.spinner_exchanging_currency);
+        mSpinnerResultCurrency = findViewById(R.id.spinner_result_currency);
 
-        mTextViewExchangingCurrency.setThreshold(1);
-        mTextViewResultCurrency.setThreshold(1);
+        mCurrenciesAdapter = new CurrenciesAdapter(getContext());
+        mSpinnerExchangingCurrency.setAdapter(mCurrenciesAdapter);
+        mSpinnerResultCurrency.setAdapter(mCurrenciesAdapter);
+
+        mEditTextValue.setText("1.0");
 
         new EditTextChangeListener()
-                .addEditText(mEditTextResult)
                 .addEditText(mEditTextValue)
                 .setCallback(new CurrencyFieldChangeListener());
+
+        AdapterView.OnItemSelectedListener onCurrencySelectedListener = new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                exchange();
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {}
+        };
+        mSpinnerResultCurrency.setOnItemSelectedListener(onCurrencySelectedListener);
+        mSpinnerExchangingCurrency.setOnItemSelectedListener(onCurrencySelectedListener);
+    }
+
+    private void exchange() {
+        int fromCurrencyIndex = mSpinnerExchangingCurrency.getSelectedItemPosition();
+        int toCurrencyIndex = mSpinnerResultCurrency.getSelectedItemPosition();
+
+        float value = Float.valueOf(mEditTextValue.getText().toString());
+        mPresenter.exchange(value, fromCurrencyIndex, toCurrencyIndex);
     }
 
     private class CurrencyFieldChangeListener implements EditTextChangeListener.Callback {
 
         @Override
         public void onEditTextChanged(EditText editText, String newText) {
-
+            if (newText.isEmpty()) {
+                return;
+            }
+            exchange();
         }
 
     }

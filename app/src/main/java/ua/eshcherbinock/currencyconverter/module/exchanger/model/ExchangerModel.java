@@ -12,6 +12,7 @@ import ua.eshcherbinock.currencyconverter.model.entity.currency.Currency;
 import ua.eshcherbinock.currencyconverter.model.entity.currency.response.CurrencyResponse;
 import ua.eshcherbinock.currencyconverter.module.base.BaseModel;
 import ua.eshcherbinock.currencyconverter.module.exchanger.ExchangerModuleContracts;
+import ua.eshcherbinock.currencyconverter.module.exchanger.helper.CurrencyComparator;
 import ua.eshcherbinock.currencyconverter.provider.api.ApiProviderType;
 
 public final class ExchangerModel extends BaseModel implements ExchangerModuleContracts.Model {
@@ -40,11 +41,14 @@ public final class ExchangerModel extends BaseModel implements ExchangerModuleCo
                     return;
                 }
 
+                mCachedCurrencies.add(Currency.UAH);
+
                 response.body().forEach(currencyResponse -> {
                     Currency currency = new Currency(currencyResponse);
                     mCachedCurrencies.add(currency);
                 });
 
+                mCachedCurrencies.sort(new CurrencyComparator());
                 callback.onReceived(mCachedCurrencies, null);
             }
 
@@ -53,6 +57,13 @@ public final class ExchangerModel extends BaseModel implements ExchangerModuleCo
                 callback.onReceived(null, new Error(t));
             }
         });
+    }
+
+    @Override
+    public float exchange(float value, int fromCurrencyIndex, int toCurrencyIndex) {
+        Currency fromCurrency = mCachedCurrencies.get(fromCurrencyIndex);
+        Currency toCurrency = mCachedCurrencies.get(toCurrencyIndex);
+        return value * fromCurrency.getRate() / toCurrency.getRate();
     }
 
 }

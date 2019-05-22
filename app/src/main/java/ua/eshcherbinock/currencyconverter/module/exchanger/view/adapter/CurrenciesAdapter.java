@@ -6,7 +6,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.BaseAdapter;
 import android.widget.Filter;
+import android.widget.Filterable;
 import android.widget.TextView;
 
 import java.util.ArrayList;
@@ -15,30 +17,34 @@ import java.util.List;
 import ua.eshcherbinock.currencyconverter.R;
 import ua.eshcherbinock.currencyconverter.model.entity.currency.Currency;
 
-public final class CurrenciesAdapter extends ArrayAdapter<Currency> {
+public final class CurrenciesAdapter extends BaseAdapter {
 
+    private Context mContext;
     private List<Currency> mCurrencies;
-    private List<Currency> mFilteredCurrencies;
 
-    private Filter mCurrenciesFilter;
-
-    public CurrenciesAdapter(Context context, List<Currency> currencies) {
-        super(context, R.layout.currency_list_item, currencies);
-
-        mCurrencies = currencies;
-        mFilteredCurrencies = new ArrayList<>(currencies);
+    public CurrenciesAdapter(Context context) {
+        mContext = context;
+        mCurrencies = new ArrayList<>();
     }
 
     public void setupCurrencies(List<Currency> currencies) {
         mCurrencies = new ArrayList<>(currencies);
-        mFilteredCurrencies = new ArrayList<>(currencies);
-
         notifyDataSetChanged();
     }
 
     @Override
-    public Filter getFilter() {
-        return new CurrenciesFilter();
+    public int getCount() {
+        return mCurrencies.size();
+    }
+
+    @Override
+    public Currency getItem(int position) {
+        return mCurrencies.get(position);
+    }
+
+    @Override
+    public long getItemId(int position) {
+        return position;
     }
 
     @Override
@@ -67,51 +73,6 @@ public final class CurrenciesAdapter extends ArrayAdapter<Currency> {
             mTextViewCode.setText(currency.getCode());
             mTextViewName.setText(currency.getName());
         }
-    }
-
-    private class CurrenciesFilter extends Filter {
-
-        @Override
-        public CharSequence convertResultToString(Object resultValue) {
-            Currency currency = (Currency) resultValue;
-            return currency.getCode() + " " + currency.getName();
-        }
-
-        @Override
-        protected FilterResults performFiltering(CharSequence constraint) {
-            Log.d("FILTER", "Constraint: " + constraint);
-            if (constraint != null) {
-                mFilteredCurrencies.clear();
-                for (Currency currency : mCurrencies) {
-                    if (currency.getCode().toLowerCase().contains(constraint.toString().toLowerCase())) {
-                        mFilteredCurrencies.add(currency);
-                    }
-                }
-
-                FilterResults filterResults = new FilterResults();
-                filterResults.values = mFilteredCurrencies;
-                filterResults.count = mFilteredCurrencies.size();
-                return filterResults;
-            } else {
-                return new FilterResults();
-            }
-        }
-
-        @Override
-        protected void publishResults(CharSequence constraint, FilterResults results) {
-            ArrayList<Currency> c = (ArrayList<Currency>) results.values;
-            if (results != null && results.count > 0) {
-                clear();
-                for (Currency cust : c) {
-                    add(cust);
-                    notifyDataSetChanged();
-                }
-            }  else {
-                clear();
-                notifyDataSetChanged();
-            }
-        }
-
     }
 
 }

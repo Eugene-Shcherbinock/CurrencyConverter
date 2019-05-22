@@ -30,4 +30,10 @@ public class ExchangerPresenter extends BasePresenter <ExchangerModuleContracts.
         });
     }
 
+    @Override
+    public void exchange(float value, int fromCurrencyIndex, int toCurrencyIndex) {
+        float result = mModel.exchange(value, fromCurrencyIndex, toCurrencyIndex);
+        mView.get().showExchangeResult(result);
+    }
+
 }

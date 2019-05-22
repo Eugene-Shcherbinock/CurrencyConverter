@@ -13,17 +13,23 @@ public interface ExchangerModuleContracts {
 
         void setupCurrencies(List<Currency> currencies);
 
+        void showExchangeResult(float result);
+
     }
 
     interface Presenter <V extends View> extends BaseModuleContracts.Presenter <V> {
 
         void fetchCurrencies();
 
+        void exchange(float value, int fromCurrencyIndex, int toCurrencyIndex);
+
     }
 
     interface Model extends BaseModuleContracts.Model {
 
         void fetchCurrencies(CurrenciesFetchCallback callback);
+
+        float exchange(float value, int fromCurrencyIndex, int toCurrencyIndex);
 
         interface CurrenciesFetchCallback {
 

@@ -6,10 +6,18 @@ import ua.eshcherbinock.currencyconverter.model.entity.currency.response.Currenc
 
 public final class Currency {
 
+    public static final Currency UAH = new Currency("Українська гривня", "UAH", 1);
+
     private String mName;
     private String mCode;
 
     private float mRate;
+
+    public Currency(String name, String code, float rate) {
+        mName = name;
+        mCode = code;
+        mRate = rate;
+    }
 
     public Currency(@Nullable CurrencyResponse response) {
         if (response == null) {
